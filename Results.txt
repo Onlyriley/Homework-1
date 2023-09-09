@@ -1,0 +1,40 @@
+Question 1:
+    helloA - 17104 Bytes
+    helloA.c - 172 Bytes
+    helloA.o - 3648 Bytes
+
+Question 2:
+    helloB - 17104 Bytes
+    helloB.c - 200 Bytes
+    helloB.o - 3648 Bytes
+
+    helloB.c is 28 bytes larger than helloA.c.
+
+Question 3:
+    helloB.o is the exact same size as helloA.o.
+
+Question 4:
+    helloA and helloB are also the exact same size.
+
+Question 5:
+    The macro statement makes the source c file slightly larger,
+    however it still performs the same operation as helloA.
+
+Question 6:
+    helloC - 17352 Bytes
+    helloC.c - 200 Bytes
+    helloC.o - 3928 Bytes
+
+    helloC.c is the same size as helloB.c, and 28 bytes larger than helloA.helloC
+
+Question 7:
+    helloC.o is 280 bytes larger than both helloA.o and helloB.o.
+
+Question 8:
+    helloC is 248 bytes larger than both helloA and helloB
+
+Question 9:
+    Because the string that is being printed is stored as a variable in memory, the machine code
+    needs to perform the instructions to save the string to memory, which makes the executable slightly larger.
+
+
